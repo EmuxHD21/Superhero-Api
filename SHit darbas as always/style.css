@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(100, 100, 168);
+    /*background-image: url(https://www.gifcen.com/wp-content/uploads/2025/03/spider-man-gif-3.gif);*/
+    background-image: url(https://www.gifcen.com/wp-content/uploads/2025/03/spider-man-gif-4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    background-color: #8DD8FF;
+    fill-opacity: 70%;
+    position: sticky;
+    border-bottom: #4E71FF 10px solid;
+    margin: 0px;
+    height: 60px;
+}
+
+.nav input{
+    font-size: 30px;
+    background-color: #4E71FF;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.nav h1{
+    text-align: center;
+}
+
+
+.about{
+    margin-top: 200px;
+    background-color: #8DD8FF;
+    text-align: center;
+    justify-content: center;
+    opacity: 60%;
+    border: 0;
+    border-radius: 30px;
+}
+
+
+.heroimg{
+    width: 400px;
+    height: 600px;
+    display: none;
+    border: #8DD8FF 7px solid;
+    border-radius: 30px;
+}
+
+.heroinfo{
+    background-color:#4E71FF;
+    opacity: 75%;
+    border-radius: 30px;
+    width: 75%;
+}
