@@ -37,21 +37,59 @@ body{
     justify-content: center;
     opacity: 60%;
     border: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
     border-radius: 30px;
 }
 
 
 .heroimg{
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
     display: none;
     border: #8DD8FF 7px solid;
     border-radius: 30px;
 }
 
 .heroinfo{
-    background-color:#4E71FF;
+    background-color: #4E71FF;
     opacity: 75%;
     border-radius: 30px;
-    width: 75%;
+    width: 50%;
+    padding: 20px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    
+}
+
+@media only screen and (max-width: 1900px) {
+    .heroimg {
+        width: 320px;
+        height: 470px;
+    }
+  }
+
+  @media only screen and (min-width: 2500px) {
+    .heroimg {
+        width: 500px;
+        height: 700px;
+    }
+    .about{
+        margin-top: 170px;
+    }
+    .sptxt{
+        font-size: 150px;
+    }
+  }
+
+.sptxt{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
 }

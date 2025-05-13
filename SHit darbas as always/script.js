@@ -10,14 +10,28 @@ async function fetchData(){
         }
 
         const data = await response.json();
-        const SuperHeroImg = data.results[0].image.url;
+        const hero = data.results[0];
         const imgElement = document.getElementById("SuperHeroImg");
+        const infoElement = document.getElementById("SuperHeroInfoText");
 
-        imgElement.src = SuperHeroImg;
+        imgElement.src = hero.image.url;
         imgElement.style.display = "block";
+
+        infoElement.innerHTML = `
+            <p>Name: ${hero.name}</p>
+            <p>Full name: ${hero.biography["full-name"]}</p>
+            <p>Strength: ${hero.powerstats.strength}</p>
+            <p>Speed: ${hero.powerstats.speed}</p>
+            <p>Durability: ${hero.powerstats.durability}</p>
+            <p>Publisher: ${hero.biography.publisher}</p>
+            <p>First appearance ${hero.biography["first-appearance"]}</p>
+            
+
+        `;
+        document.querySelector(".heroinfo").style.display = "flex";
     }
     catch(error){
         console.error(error);
+        document.querySelector(".heroinfo").style.display = "none";
     }
 }
-
