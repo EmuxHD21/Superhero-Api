@@ -3,6 +3,11 @@ Darbas kuris bus nuobudus
 https://prod.liveshare.vsengsaas.visualstudio.com/join?A789CC00FC112B96FAE06734DE6E24A0A951
 
 
+DOCS:
+Pirma diena:
+padarėm pradinį primityvų dizainą dizainą, pridėjom nav bar be jokio dizaino, kad testuoti ar veikia api. Titas dirbo ties dizainu, Emas su JS, Padarėm kad veiktų search bar'as ir išmestų nuotraukas.
+
+
 <!DOCTYPE html>
 <html>
 <body>
