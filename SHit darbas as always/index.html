@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shit darbas</title>
+    <title>Super Hero Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,19 +12,21 @@
 
 
 <div class="nav">
-    <input placeholder="Enter SuperHero Name" onchange="fetchData()" type="text" id="SuperHeroname">
+    <a href="index.html" class="home-btn"><img src="https://imgs.search.brave.com/jg_ZY4EFP9ludobeCYA0yB8UICiV7bS99S9xAkk1WXg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvcHJldmll/dy93aGl0ZS9ob21l/LXh4bC5wbmc"/></a>
+        <div class="search">
+            <input placeholder="Search your hero.." onchange="fetchData()" type="text" id="SuperHeroname" >
+            <button type="submit" class="search-btn">🔍</button>
+        </div>
+    <h2>Super Hero Site</h2>
 </div>
 
-    <div class="heroinfo">
-    <img class="heroimg" id="SuperHeroImg" src="">
+
+<div class="heroinfo">
+    <img class="heroimg glow-border" id="SuperHeroImg" src="">
     <div class="sptxt" id="SuperHeroInfoText"></div>
-    </div>
+</div>
 
 
-    <section class="about">
-        <h1>About the page:</h1>
-        <h2>The page was made by two old ass men who had four kids</h2>
-        </section>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
