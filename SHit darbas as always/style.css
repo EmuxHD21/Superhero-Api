@@ -113,6 +113,17 @@ html, body{
     overflow: hidden;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;
+  background-color: rgb(86, 177, 169);
+  box-shadow: black;
+  color: white;
+  text-align: center;
+}
 
 .sptxt{
     color: white;
@@ -126,14 +137,23 @@ html, body{
 /*Animations*/
 .search .search-btn:hover {
   transform: scale(1.3); 
+  transition: 200ms;
 }
 
 .home-btn:hover{
     transform: scale(1.3);
+    transition: 200ms;
+}
+.random-btn:hover{
+  transform: scale(1.1);
+  background-color: rgb(170, 236, 170);
+  transition: 200ms;
 }
 
-
-
+.footer:hover{
+  background-color: rgb(96, 192, 93);
+  transition: 200ms;
+}
 
 @media only screen and (max-width: 1900px) {
     .heroimg {
@@ -142,15 +162,11 @@ html, body{
     }
   }
 
-  @media only screen and (min-width: 2500px) {
-    .heroimg {
-        width: 500px;
-        height: 700px;
-    }
-    .about{
-        margin-top: 170px;
-    }
-    .sptxt{
-        font-size: 150px;
-    }
+
+  .random-btn{
+    border-radius: 15px;
+    font-size: 20px;
+    border: 3px black solid;
+    float: left;
+    padding: 10px;
   }

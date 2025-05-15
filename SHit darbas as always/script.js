@@ -17,6 +17,7 @@ async function fetchData(){
         imgElement.src = hero.image.url;
         imgElement.style.display = "block";
 
+      
         infoElement.innerHTML = `
             <p>Name: ${hero.name}</p>
             <p>Full name: ${hero.biography["full-name"]}</p>
