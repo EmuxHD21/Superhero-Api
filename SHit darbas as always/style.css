@@ -97,6 +97,7 @@ html, body{
         0 0 15px #ffffff;
 }
 
+
 .heroinfo{
     background-color: #000000;
     opacity: 0.75;
@@ -104,7 +105,6 @@ html, body{
     width: 100%;
     max-width: 1000px;
     padding: 20px;
-    display: none;
     flex-direction: row;
     align-items: flex-start;
     gap: 40px;
@@ -113,13 +113,17 @@ html, body{
     overflow: hidden;
 }
 
+p{
+  text-align: center;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   font-size: 25px;
-  background-color: rgb(86, 177, 169);
+  background-color: rgb(0, 0, 0);
   box-shadow: black;
   color: white;
   text-align: center;
@@ -151,9 +155,24 @@ html, body{
 }
 
 .footer:hover{
-  background-color: rgb(96, 192, 93);
+  background-color: rgb(148, 148, 148);
   transition: 200ms;
 }
+
+.footer a{
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer a:after{
+ color: none;
+}
+
+.footer a:hover{
+  color: rgb(0, 0, 0)
+}
+
 
 @media only screen and (max-width: 1900px) {
     .heroimg {
@@ -170,3 +189,5 @@ html, body{
     float: left;
     padding: 10px;
   }
+
+  
