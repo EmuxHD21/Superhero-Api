@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duel</title>
+    <link rel="stylesheet" href="duel.css">
+</head>
+<body>
+    <div class="nav">
+    <a href="index.html" class="home-btn"><img src="https://imgs.search.brave.com/jg_ZY4EFP9ludobeCYA0yB8UICiV7bS99S9xAkk1WXg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvcHJldmll/dy93aGl0ZS9ob21l/LXh4bC5wbmc"/></a>
+        <div class="nav-buttons">
+    <button type="button" onclick="document.location='random.html'" class="random-btn">Random</button>
+    <button type="button" onclick="document.location='random.html'" class="random-btn">Duel</button>
+    </div>
+    <h2>Super Hero Site</h2>
+</div>
+
+<div class="vs-container">
+  <div class="heroinfo" id="leftHero">
+    <img class="heroimg glow-border" id="leftHeroImg" src="">
+    <div class="sptxt" id="leftHeroInfo"></div>
+  </div>
+
+  <div class="heroinfo" id="rightHero">
+    <img class="heroimg glow-border" id="rightHeroImg" src="">
+    <div class="sptxt" id="rightHeroInfo"></div>
+  </div>
+</div>
+
+<div class="duel-inputs">
+  <input type="text" id="hero1" placeholder="Enter Hero name">
+  <input type="text" id="hero2" placeholder="Enter Hero name">
+  <button onclick="loadDuel()">Press</button>
+</div>
+
+<div class="footer">
+    <a href="aboutus.html">About us!</a>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
