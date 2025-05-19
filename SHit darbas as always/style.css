@@ -103,11 +103,11 @@ html, body{
     padding: 20px;
     flex-direction: row;
     align-items: flex-start;
-    display: none;
     gap: 40px;
     margin: 100px auto 20px auto; 
     box-sizing: border-box;
     overflow: hidden;
+    display:none
 }
 
 p{
