@@ -6,5 +6,5 @@ Emas padarė kad rodytu kiekvieno herojaus stats, padarė kad search bar'as veik
 Update: Titui nepatiko dizainas tai buvo visiškai pakeista spalvų paletė iš melynos į baltą ir juodą. Dizainą įkvėpė "uber.com" Titas pridėjo button'ą, search button'ą padarė search bar'o dizainą.
 Emas dirbo ties puslapio funkcionalumo. Padarė, kad visi mygtukai veiktų. Taip pat padarėm herojų korteles kuriose aiškiau ir gražiau pateikta informacija.
 Kalbant apie problemas Titui labai nesisekė sulygiuot visus elementus, kad jie turėtų savo paskirtas vietas ir būtų ten kur jie turi būti.
-Emas strugglino su JS žiūrėjo daug youtube tutorialų ir mokinosi.....
+Emas strugglino su JS žiūrėjo daug youtube tutorialų ir mokinosi. Buvo pridėtas random hero buttonas taip pat ir duel mygtukas, kuriuos darė emas.
 
