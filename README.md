@@ -8,4 +8,4 @@ Emas dirbo ties puslapio funkcionalumo. Padarė, kad visi mygtukai veiktų. Taip
 Kalbant apie problemas Titui labai nesisekė sulygiuot visus elementus, kad jie turėtų savo paskirtas vietas ir būtų ten kur jie turi būti.
 Emas strugglino su JS žiūrėjo daug youtube tutorialų ir mokinosi. Buvo pridėtas random hero buttonas taip pat ir duel mygtukas, kuriuos darė emas.
 
-Emas pridejo background foto pakeite dizaina navbar searchabr ir button pozicijas. 
+kartu pridėjom background foto emas pakeite dizainą navbar searchabar ir button pozicijas. 
